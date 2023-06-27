@@ -79,7 +79,7 @@ const NewItem = (props) => {
                 </td>
                 <td>
                   {inputHasErrorRem && (
-                    <p className={classes.error}>Reminder Cannot be Empty</p>
+                    <p className={classes.error}>Reminder Cannot be Empty!</p>
                   )}
                 </td>
               </tr>
